@@ -11,4 +11,5 @@ license = "MIT OR Apache-2.0"
 
 [dependencies]
 winapi = "0.2.5"
-dxgi-win = "0.2.1"
+dxgi-win = { git = "https://github.com/bryal/dxgi-rs.git", branch="master" }
+
